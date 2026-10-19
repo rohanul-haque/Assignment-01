@@ -1,0 +1,19 @@
+/**
+ * @copyright 2026
+ * @author Rohanul Haque Rohan - MERN Stack Developer
+ * @license Apache-2.0
+ */
+
+/**
+ * Application Error Codes
+ */
+export const ERROR_CODE = {
+  AUTH_TOKEN_EXPIRED: "AUTH_TOKEN_EXPIRED",
+  AUTH_TOKEN_INVALID: "AUTH_TOKEN_INVALID",
+  INTERNAL_SERVER_ERROR: "INTERNAL_SERVER_ERROR",
+  ROUTE_NOT_FOUND: "ROUTE_NOT_FOUND",
+  NOT_FOUND: "NOT_FOUND",
+  USER_NOT_FOUND: "USER_NOT_FOUND",
+  VALIDATION_ERROR: "VALIDATION_ERROR",
+  AUTH_EMAIL_EXISTS: "AUTH_EMAIL_EXISTS",
+} as const;
